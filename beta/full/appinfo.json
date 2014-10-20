@@ -1,0 +1,27 @@
+{
+	"id":		"net.minego.solitairebeta",
+	"version":	"1.2.886",
+	"vendor":	"minego",
+	"type":		"web",
+	"main":		"index.html",
+	"title":	"Solitaire Collection Beta",
+	"icon":		"icon.png",
+	"noWindow":	true,
+	"keywords":	[
+		"solitaire",
+		"patience",
+		"cards",
+		"freecell",
+		"klondike",
+		"spider",
+		"spiderette",
+		"golf",
+		"canfield",
+		"acesup",
+		"pyramid",
+		"gaps",
+		"spaces",
+		"montana",
+		"yukon"
+	]
+}

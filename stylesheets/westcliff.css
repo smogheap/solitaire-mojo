@@ -1,0 +1,96 @@
+/* klondike deck layout */
+#deck, #waste, #foundation .CardStack {
+	position:				absolute;
+	top:					5px;
+}
+
+.vert #tableau .CardStack {
+	position:				absolute;
+	top:					65px;
+}
+
+.horiz #tableau .CardStack {
+	position:				absolute;
+	top:					75px;
+}
+
+.leftdeck #deck,
+.rightdeck #foundation1 {
+	left:					2%;
+}
+
+.leftdeck #waste,
+.rightdeck #foundation2 {
+	left:					15%;
+}
+
+.rightdeck #foundation3 {
+	left:					29%;
+}
+
+.leftdeck #foundation1,
+.rightdeck #foundation4 {
+	left:					43%;
+}
+
+.leftdeck #foundation2,
+.rightdeck #waste {
+	left:					57%;
+}
+
+.leftdeck #foundation3 {
+	left:					71%;
+}
+
+.leftdeck #foundation4,
+.rightdeck #deck {
+	left:					85%;
+}
+
+#tableau1 {
+	left:					0%;
+}
+
+#tableau2 {
+	left:					10%;
+}
+
+#tableau3 {
+	left:					20%;
+}
+
+#tableau4 {
+	left:					30%;
+}
+
+#tableau5 {
+	left:					40%;
+}
+
+#tableau6 {
+	left:					50%;
+}
+
+#tableau7 {
+	left:					60%;
+}
+
+#tableau8 {
+	left:					70%;
+}
+
+#tableau9 {
+	left:					80%;
+}
+
+#tableau10 {
+	left:					90%;
+}
+
+
+.vert .card,
+.vert .base {
+	width:					32px !important;
+}
+
+

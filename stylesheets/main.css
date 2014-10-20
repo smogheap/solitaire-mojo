@@ -1,0 +1,340 @@
+.filter-field-container-height {
+	height:					96px;
+}
+
+.palm-header {
+	overflow:				visible;
+}
+
+.palm-header .palm-header-wrapper {
+	margin:					0px -15px 0px 0px;
+}
+
+.palm-header .toggle-inlay {
+	float:					right;
+	width:					120px;
+	height:					50px;
+
+	margin-right:			-3px;
+	margin-left:			-26px;
+}
+
+.palm-header .toggle-inlay div {
+	float:					right;
+	height:					50px;
+	width:					50px;
+	margin:					0px;
+
+	border-width:			0 25px;
+	-webkit-box-sizing:		border-box;
+}
+
+.toggle-first img {
+	margin:					9px 0px 0px -12px;
+}
+
+.toggle-last img {
+	margin:					9px 0px 0px -18px;
+}
+
+.toggle-first {
+    -webkit-border-image:	url(../images/menu-inlay-first.png) 0 25 200 25 repeat repeat;
+}
+.toggle-last {
+    -webkit-border-image:	url(../images/menu-inlay-last.png) 0 25 200 25 repeat repeat;
+}
+
+.toggle-first.depressed {
+    -webkit-border-image:	url(../images/menu-inlay-first.png) 100 25 100 25 repeat repeat;
+}
+.toggle-last.depressed {
+    -webkit-border-image:	url(../images/menu-inlay-last.png) 100 25 100 25 repeat repeat;
+}
+
+.toggle-first.selected  {
+    -webkit-border-image:	url(../images/menu-inlay-first.png) 50 25 150 25 repeat repeat;
+}
+.toggle-last.selected {
+    -webkit-border-image:	url(../images/menu-inlay-last.png) 50 25 150 25 repeat repeat;
+}
+
+.toggle-first.depressed.selected {
+    -webkit-border-image:	url(../images/menu-inlay-first.png) 150 25 50 25 repeat repeat;
+}
+.toggle-last.depressed.selected {
+    -webkit-border-image:	url(../images/menu-inlay-last.png) 150 25 50 25 repeat repeat;
+}
+
+
+
+.preview-item {
+	vertical-align:			top;
+	display:				inline-block;
+	text-align:				center;
+}
+
+.preview-item .title {
+	text-transform:			none;
+	margin-top:				-7px;
+	margin-bottom:			5px;
+	margin-left:			2px;
+
+	width:					98px;
+	color:					#ffffff;
+
+	font-size:				16px;
+	font-weight:			bold;
+}
+
+.preview-item .overlay {
+	position:				absolute;
+	margin:					1px 0px 0px 3px;
+	width:					102px;
+	height:					132px;
+	background:				url(../images/preview-overlay.png) top left no-repeat;
+}
+
+.preview-item img {
+ 	margin:					6px 0px 6px 9px;
+	height:					100px;
+	width:					90px;
+
+	border:					0px;
+}
+
+body.vert.wallpaper {
+	background-size:		auto 100%;
+	background-position:	center;
+}
+
+body.horiz.wallpaper {
+	background-size:		100% auto;
+	background-position:	center;
+}
+
+#all {
+	overflow:				hidden;
+	position:				absolute;
+	left:					0px;
+	top:					0px;
+}
+
+#status {
+	font-size:				13px;
+	color:					white;
+	text-shadow:			black 0.1em 0.1em 0.2em;
+	text-align:				center;
+
+	position:				absolute;
+	left:					0px;
+	top:					100%;
+
+	margin-top:				-50px;
+}
+
+.horiz #status {
+	margin-left:			45px;
+}
+
+#fade {
+	z-index:				100;
+	background-color:		black;
+	display:				none;
+
+	position:				absolute;
+	left:					0px;
+	top:					0px;
+	width:					100%;
+	height:					100%;
+}
+
+.icon.app {
+	background-image:		url(../images/icon.png) !important;
+}
+
+/* Common card styles */
+.card,
+.base {
+	position:				absolute;
+	font-weight:			bold;
+	font-size:				16px;
+	text-indent:			6px;
+
+	background-position:	center center;
+	background-repeat:		no-repeat;
+
+	-wekbit-transition-duration: 0.7s;
+}
+
+.diams, .hearts {
+	color:					rgba(203, 0, 0, 1.0);
+}
+
+.spades, .clubs {
+	color:					rgba(0, 0, 0, 1.0);
+}
+
+.disabled .diams, .disabled .hearts{
+	opacity:				0.5;
+	color:					rgba(203, 0, 0, 0.5);
+}
+
+.disabled .spades, .disabled .clubs {
+	opacity:				0.5;
+	color:					rgba(0, 0, 0, 0.5);
+}
+
+.base {
+	opacity:				0.9;
+	color:					rgba(255, 255, 255, 0.7);
+}
+
+/* Hide the text of any cards that are face down */
+.card.facedown {
+	color:					rgba(0, 0, 0, 0) !important;
+}
+
+/* Vertical card */
+.vert .card,
+.vert .base {
+	width:					40px;
+	height:					58px;
+}
+
+.vert .card.diams {
+	background-image:		url(../images/vert/diams.png);
+}
+
+.vert .card.clubs {
+	background-image:		url(../images/vert/clubs.png);
+}
+
+.vert .card.hearts {
+	background-image:		url(../images/vert/hearts.png);
+}
+
+.vert .card.spades {
+	background-image:		url(../images/vert/spades.png);
+}
+
+
+.vert .card.diams.highlight {
+	background-image:		url(../images/vert/highlight-diams.png);
+}
+
+.vert .card.clubs.highlight {
+	background-image:		url(../images/vert/highlight-clubs.png);
+}
+
+.vert .card.hearts.highlight {
+	background-image:		url(../images/vert/highlight-hearts.png);
+}
+
+.vert .card.spades.highlight {
+	background-image:		url(../images/vert/highlight-spades.png);
+}
+
+
+.vert .base {
+	background-image:		url(../images/vert/foundation.png);
+}
+
+.vert .base.diams {
+	background-image:		url(../images/vert/foundation-diams.png);
+}
+
+.vert .base.clubs {
+	background-image:		url(../images/vert/foundation-clubs.png);
+}
+
+.vert .base.hearts {
+	background-image:		url(../images/vert/foundation-hearts.png);
+}
+
+.vert .base.spades {
+	background-image:		url(../images/vert/foundation-spades.png);
+}
+
+.vert .card.facedown {
+	background-image:		url(../images/vert/back-red.png) !important;
+}
+
+/* Horizontal card */
+.horiz .card,
+.horiz .base {
+	width:					48px;
+	height:					68px;
+}
+
+/*
+.horiz .card.small,
+.horiz .base.small {
+	text-indent:			-3px;
+	text-align:				center;
+}
+*/
+
+.horiz .card.diams {
+	background-image:		url(../images/horiz/diams.png);
+}
+
+.horiz .card.clubs {
+	background-image:		url(../images/horiz/clubs.png);
+}
+
+.horiz .card.hearts {
+	background-image:		url(../images/horiz/hearts.png);
+}
+
+.horiz .card.spades {
+	background-image:		url(../images/horiz/spades.png);
+}
+
+
+.horiz .card.diams.highlight {
+	background-image:		url(../images/horiz/highlight-diams.png);
+}
+
+.horiz .card.clubs.highlight {
+	background-image:		url(../images/horiz/highlight-clubs.png);
+}
+
+.horiz .card.hearts.highlight {
+	background-image:		url(../images/horiz/highlight-hearts.png);
+}
+
+.horiz .card.spades.highlight {
+	background-image:		url(../images/horiz/highlight-spades.png);
+}
+
+
+
+.horiz .base {
+	background-image:		url(../images/horiz/foundation.png);
+}
+
+.horiz .base.diams {
+	background-image:		url(../images/horiz/foundation-diams.png);
+}
+
+.horiz .base.clubs {
+	background-image:		url(../images/horiz/foundation-clubs.png);
+}
+
+.horiz .base.hearts {
+	background-image:		url(../images/horiz/foundation-hearts.png);
+}
+
+.horiz .base.spades {
+	background-image:		url(../images/horiz/foundation-spades.png);
+}
+
+.horiz .card.facedown {
+	background-image:		url(../images/horiz/back-red.png) !important;
+}
+
+/* Icons */
+.palm-menu-icon.autoplay {
+	background-image:		url(../images/menu-icon-autoplay.png);
+}
+

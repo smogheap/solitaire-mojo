@@ -1,0 +1,8 @@
+- Improved dragging
+- Redused sluggishness
+- Added difficulty levels
+- Save game when card is closed
+- Added preferences screen
+- Allow setting a board color
+- Added relaxed mode
+- Allow tapping on a card to move it to an avaliable spot on the home cells, free cells or the tabluea

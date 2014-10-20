@@ -1,0 +1,39 @@
+{
+    "copyright":			"Copyright © 2010",
+    "copyrightHolder":		"Micah N Gorrell",
+
+	"Undo":					"Undo Last Move",
+	"New Game":				"New Game",
+	"Restart":				"Restart Game",
+	"Help":					"Help",
+	"About":				"About",
+
+	"Deal":					"Deal",
+	"Cancel":				"Cancel",
+
+	"Easy":					"Easy",
+	"Medium":				"Medium",
+	"Hard":					"Hard",
+	"Select by number":		"Select by number",
+
+	"Game Type":			"Game Type",
+	"Traditional":			"Traditional",
+	"Relaxed":				"Relaxed",
+
+	"Restart Game":			"Restart Game",
+	"restart-sure":			"Are you sure?  All progress will be lost.",
+
+	"Warning":				"Warning",
+	"horizontal-warning":	"The application menu will not be avaliable while in horizontal mode.  You may press space to return to vertical mode.",
+	"apply-all-warning":	"Are you sure?  This will overwrite all settings in other games.",
+
+	"Added to Launcher":	"You may now launch this game directly from your device's launcher.",
+	"Not added to Launcher":"The game could not be added to the launcher.  This usually means that it has already been added.",
+
+	"Upgrade":				"Upgrade",
+	"Upgrade Message":		"You've already played this game 10 times.  Do you want to keep playing?",
+	"Welcome":				"Welcome",
+	"Demo Welcome Message":	"Want even more solitaire?  Solitaire Collection includes many more games, and you can try them all for free.  Enjoy 15 deals of each.  To thank you for trying our games freecell will remain free!",
+	"Multiple Valid Moves":	"There are multiple valid moves.  Tap the top card that you want to move."
+}
+

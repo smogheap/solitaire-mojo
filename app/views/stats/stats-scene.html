@@ -1,0 +1,66 @@
+<div class="palm-page-header">
+	<div class="palm-page-header-wrapper">
+		<div class="icon app"></div>
+		<div class="title translate">Statistics</div>
+	</div>
+</div>
+
+<div class="palm-group">
+	<div class="palm-group-title translate">Statistics</div>
+	<div class="palm-list">
+
+		<div class="palm-row first" x-mojo-touch-feedback="delayed">
+			<div class="palm-row-wrapper">
+				<div class="label translate">Games Played</div>
+				<div class="title" id="gamecount">...</div>
+			</div>
+		</div>
+
+		<div class="palm-row ifwon" x-mojo-touch-feedback="delayed">
+			<div class="palm-row-wrapper">
+				<div class="label translate">Games Won</div>
+				<div class="title" id="wincount">...</div>
+			</div>
+		</div>
+
+		<div class="palm-row ifwon" x-mojo-touch-feedback="delayed" style="display: none;">
+			<div class="palm-row-wrapper">
+				<div class="label translate">Winning Streak</div>
+				<div class="title" id="winstreak">...</div>
+			</div>
+		</div>
+
+		<div class="palm-row ifwon" x-mojo-touch-feedback="delayed">
+			<div class="palm-row-wrapper">
+				<div class="label translate">Fastest Win</div>
+				<div class="title" id="besttime">...</div>
+			</div>
+		</div>
+
+		<div class="palm-row ifwon" x-mojo-touch-feedback="delayed" style="display: none;">
+			<div class="palm-row-wrapper">
+				<div class="label translate">Bank</div>
+				<div class="title" id="bank">...</div>
+			</div>
+		</div>
+
+		<div class="palm-row last" x-mojo-touch-feedback="delayed">
+			<div class="palm-row-wrapper">
+				<div class="label translate">Total time spent</div>
+				<div class="title" id="totaltime">...</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="palm-group ifwon">
+	<div class="palm-group-title translate">Games Won</div>
+	<div class="palm-list" x-mojo-element="List" id="wonlist"></div>
+</div>
+
+<div class="palm-group">
+	<div class="palm-group-title translate">Games Attempted</div>
+	<div class="palm-list" x-mojo-element="List" id="lostlist"></div>
+</div>
+
+

@@ -1,0 +1,80 @@
+/* spider deck layout */
+#deck, #foundation .CardStack {
+	position:				absolute;
+	top:					5px;
+}
+
+.vert #tableau .CardStack {
+	position:				absolute;
+	top:					65px;
+}
+
+.horiz #tableau .CardStack {
+	position:				absolute;
+	top:					75px;
+}
+
+.leftdeck #deck,
+.rightdeck #foundation1,
+#tableau1 {
+	left:					0%;
+}
+
+.rightdeck #foundation2,
+#tableau2 {
+	left:					10%;
+}
+
+.leftdeck #foundation1,
+.rightdeck #foundation3,
+#tableau3 {
+	left:					20%;
+}
+
+.leftdeck #foundation2,
+.rightdeck #foundation4,
+#tableau4 {
+	left:					30%;
+}
+
+.leftdeck #foundation3,
+.rightdeck #foundation5,
+#tableau5 {
+	left:					40%;
+}
+
+.leftdeck #foundation4,
+.rightdeck #foundation6,
+#tableau6 {
+	left:					50%;
+}
+
+.leftdeck #foundation5,
+.rightdeck #foundation7,
+#tableau7 {
+	left:					60%;
+}
+
+.leftdeck #foundation6,
+.rightdeck #foundation8,
+#tableau8 {
+	left:					70%;
+}
+
+.leftdeck #foundation7,
+#tableau9 {
+	left:					80%;
+}
+
+.rightdeck #deck,
+.leftdeck #foundation8,
+#tableau10 {
+	left:					90%;
+}
+
+.vert .card,
+.vert .base {
+	width:					32px !important;
+}
+
+

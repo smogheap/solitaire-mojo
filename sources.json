@@ -1,0 +1,39 @@
+[
+	{							"source": "app/models/minego-app.js"				},
+
+	{ 							"source": "app/assistants/app-assistant.js"			},
+	{ "scenes": "gamelist",		"source": "app/assistants/gamelist-assistant.js"	},
+	{ "scenes": "gamegrid",		"source": "app/assistants/gamegrid-assistant.js"	},
+
+	{ "scenes": "about",		"source": "app/assistants/about-assistant.js"		},
+	{ "scenes": "expired",		"source": "app/assistants/expired-assistant.js"		},
+	{ "scenes": "prefs",		"source": "app/assistants/prefs-assistant.js"		},
+	{ "scenes": "stats",		"source": "app/assistants/stats-assistant.js"		},
+	{ "scenes": "help",			"source": "app/assistants/help-assistant.js"		},
+	{ "scenes": "howto",		"source": "app/assistants/howto-assistant.js"		},
+	{ 							"source": "app/assistants/newgame-assistant.js"		},
+	{ 							"source": "app/assistants/choosestack-assistant.js"	},
+
+	{ 							"source": "app/assistants/solitaire-assistant.js"	},
+
+	{ "scenes": "freecell",		"source": "app/assistants/freecell-assistant.js"	},
+	{ "scenes": "golf",			"source": "app/assistants/golf-assistant.js"		},
+	{ "scenes": "canfield",		"source": "app/assistants/canfield-assistant.js"	},
+	{ "scenes": [ "pyramid", "doublepyramid" ],
+								"source": "app/assistants/pyramid-assistant.js"		},
+	{ "scenes": "acesup",		"source": "app/assistants/acesup-assistant.js"		},
+	{ "scenes": [ "klondike", "westcliff" ],
+								"source": "app/assistants/klondike-assistant.js"	},
+	{ "scenes": [ "spider", "spiderette", ],
+								"source": "app/assistants/spider-assistant.js"		},
+	{ "scenes": "gaps",			"source": "app/assistants/gaps-assistant.js"		},
+	{ "scenes": "yukon",		"source": "app/assistants/yukon-assistant.js"		},
+
+	{							"source": "app/models/Preferences.js"				},
+	{							"source": "app/models/History.js"					},
+	{							"source": "app/models/Stats.js"						},
+	{							"source": "app/models/wrand.js"						},
+	{							"source": "app/models/timing.js"					},
+	{							"source": "app/CardStack.js"						}
+]
+

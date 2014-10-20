@@ -1,0 +1,63 @@
+/* canfield deck layout */
+#deck, #waste, #foundation {
+	position:				absolute;
+	top:					5px;
+}
+
+#tableau .CardStack {
+	position:				absolute;
+}
+
+#deck, #waste {
+	left:					2%;
+}
+
+.vert #waste {
+	top:					65px;
+}
+
+.horiz #waste {
+	top:					75px;
+}
+
+#foundation {
+	left:					85%;
+}
+
+/* Top position of each tableau */
+.row1 {
+	top:					0%;
+}
+
+.row2 {
+	top:					7.5%;
+}
+
+.row3 {
+	top:					15%;
+}
+
+.row4 {
+	top:					22.5%;
+}
+
+.row5 {
+	top:					30%;
+}
+
+.row6 {
+	top:					37.5%;
+}
+
+.row7 {
+	top:					45%;
+}
+
+.row8 {
+	top:					52.5%;
+}
+
+.row9 {
+	top:					60%;
+}
+

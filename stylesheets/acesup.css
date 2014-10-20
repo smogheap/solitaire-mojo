@@ -1,0 +1,36 @@
+/* Golf deck layout, basically klondike with no foundation */
+#deck, #waste {
+	position:				absolute;
+	top:					5px;
+}
+
+.vert #tableau .CardStack {
+	position:				absolute;
+	top:					65px;
+}
+
+.horiz #tableau .CardStack {
+	position:				absolute;
+	top:					75px;
+}
+
+.leftdeck #deck,
+#tableau1 {
+	left:					2%;
+}
+
+.leftdeck #waste,
+#tableau2 {
+	left:					29%;
+}
+
+.rightdeck #waste,
+#tableau3 {
+	left:					57%;
+}
+
+.rightdeck #deck,
+#tableau4 {
+	left:					85%;
+}
+

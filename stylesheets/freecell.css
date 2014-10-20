@@ -1,0 +1,139 @@
+/* Vertical deck layout */
+.vert #free .CardStack,
+.vert #foundation .CardStack {
+	position:				absolute;
+	top:					5px;
+}
+
+.vert #tableau .CardStack {
+	position:				absolute;
+	top:					65px;
+}
+
+.vert #free1,
+.vert #tableau1 {
+	left:					0%;
+}
+
+.vert #free2,
+.vert #tableau2 {
+	left:					12.5%;
+}
+
+.vert #free3,
+.vert #tableau3 {
+	left:					25%;
+}
+
+.vert #free4,
+.vert #tableau4 {
+	left:					37.5%;
+}
+
+.vert #foundation1,
+.vert #tableau5 {
+	left:					50%;
+}
+
+.vert #foundation2,
+.vert #tableau6 {
+	left:					62.5%;
+}
+
+.vert #foundation3,
+.vert #tableau7 {
+	left:					75%;
+}
+
+.vert #foundation4,
+.vert #tableau8 {
+	left:					87.5%;
+}
+
+/* Horizontal deck layout */
+.horiz #free .CardStack {
+	position:				absolute;
+	left:					-1%;
+}
+
+.horiz #foundation .CardStack {
+	position:				absolute;
+	left:					90.8%;
+}
+
+.horiz #free1,
+.horiz #foundation1 {
+	top:					0%;
+}
+
+.horiz #free2,
+.horiz #foundation2 {
+	top:					22%;
+}
+
+.horiz #free3,
+.horiz #foundation3 {
+	top:					44%;
+}
+
+.horiz #free4,
+.horiz #foundation4 {
+	top:					66%;
+}
+
+.horiz #tableau1, .horiz #tableau2, .horiz #tableau3, .horiz #tableau4,
+.horiz #tableau5, .horiz #tableau6, .horiz #tableau7, .horiz #tableau8 {
+	position:				absolute;
+	top:					0%;
+}
+
+.horiz #tableau1 {
+	left:					9.2%;
+}
+
+.horiz #tableau2 {
+	left:					19.4%;
+}
+
+.horiz #tableau3 {
+	left:					29.6%;
+}
+
+.horiz #tableau4 {
+	left:					39.8%;
+}
+
+.horiz #tableau5 {
+	left:					50.0%;
+}
+
+.horiz #tableau6 {
+	left:					60.2%;
+}
+
+.horiz #tableau7 {
+	left:					70.4%;
+}
+
+.horiz #tableau8 {
+	left:					80.6%;
+}
+
+/* Label for free cells */
+.base .label {
+	-webkit-transform:		rotate(-90deg);
+	position:				relative;
+	width:					50px;
+
+	color:					rgba(0, 0, 0, 0.5);
+}
+
+.vert .base .label {
+	top:					19px;
+	left:					-5px;
+}
+
+.horiz .base .label {
+	top:					23px;
+	left:					-2px;
+}

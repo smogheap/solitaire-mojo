@@ -1,0 +1,105 @@
+/* Gaps */
+.CardStack {
+	position:				absolute;
+}
+
+/* Vertical */
+.vert #row1 .CardStack {
+	top:					4px;
+}
+
+.vert #row2 .CardStack {
+	top:					64px
+}
+
+.vert #row3 .CardStack {
+	top:					124px;
+}
+
+.vert #row4 .CardStack {
+	top:					184px;
+}
+
+/* Horizontal */
+.horiz #row1 .CardStack {
+	top:					4px;
+}
+
+.horiz #row2 .CardStack {
+	top:					74px;
+}
+
+.horiz #row3 .CardStack {
+	top:					144px;
+}
+
+.horiz #row4 .CardStack {
+	top:					214px;
+}
+
+/* There is no room for the status in the horizontal view... */
+.horiz #status {
+	display:				none;
+}
+
+
+.column1 {
+	left:					0%;
+}
+
+.column2 {
+	left:					7.5%;
+}
+
+.column3 {
+	left:					15%;
+}
+
+.column4 {
+	left:					22.5%;
+}
+
+.column5 {
+	left:					30%;
+}
+
+.column6 {
+	left:					37.5%;
+}
+
+.column7 {
+	left:					45%;
+}
+
+.column8 {
+	left:					52.5%;
+}
+
+.column9 {
+	left:					60%;
+}
+
+.column10 {
+	left:					67.5%;
+}
+
+.column11 {
+	left:					75%;
+}
+
+.column12 {
+	left:					82.5%;
+}
+
+.column13 {
+	left:					90%;
+}
+
+
+
+.vert .card,
+.vert .base {
+	width:					32px !important;
+}
+
+
